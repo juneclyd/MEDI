@@ -1,0 +1,354 @@
+@media(max-width: 1200px) {
+
+    .head_logo img { 
+        padding: 9px 25px;
+    }
+    
+    .head_logo {
+        margin-left: 100px;
+    }
+    
+    .head_number h4, .our_salons { 
+        padding: 15px 21px;
+    }
+    
+    .base_first_block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_menu {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .desc {
+        margin: 76px 0 0 100px;
+    }
+
+    .desc span {
+        font-size: 13px;
+    }
+
+    .desc p {
+        font-size: 37px;
+    }
+
+    .slide_arrows {
+        padding: 40px 0 20px 0;
+    }
+
+    .slide_photo img {
+        padding-bottom: 20px;
+    }
+
+    .slide_photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+        height: 100%;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .categories button {
+        width: fit-content;
+    }
+
+    .categories button:nth-child(1) {
+        padding: 17px 42px;
+    }
+
+    .categories button:nth-child(2) {
+        border: 1px solid #FFFFFF;
+    }
+ 
+    .categories button:nth-child(3) {
+        padding: 17px 84px;
+    }
+
+    .head_logo img { 
+        padding: 10px 25px;
+    }
+
+    .head_logo {
+        margin-left: 50px;
+    }
+
+    .head_number h4,
+    .our_salons { 
+        padding: 15px 21px;
+    }
+
+    .innovations {
+        margin: 60px 0 0 50px;
+    }
+
+    .esthetics {
+        margin-top: 80px;
+        margin-left: 70px;
+    }
+
+    .news {
+        margin: 60px 0 0 50px;
+    }
+
+    .main_menu button {
+        margin-left: 35px;
+    }
+
+    .basemant {
+        margin: 60px 0 0 30px;
+    }
+}
+
+@media(max-width: 964px) {
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head_content_menu,
+    .basemant_menu {
+        display: none;
+    }
+
+    .head_logo {
+        margin-left: 150px;
+    }
+
+    .innovations_and_esthetics,
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .innovations,
+    .esthetics,
+    .news {
+        margin-left: 0;
+        width: fit-content;
+    }
+
+    .news_menu {
+        width: 100%;
+    }
+
+    .head_logo {
+        margin-right: 300px;
+        margin-left: 0;
+    }
+
+    .basemant_text {
+        border-right: 1px solid #C4C4C4 ;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 958px) {
+    .footer_block_adress {
+        padding-top: 30px;
+    }
+}
+
+@media(max-width: 761px) {
+    .slide_photo img {
+        height: 271px;
+        width: 414px;
+    }
+
+    .footer_block_adress {
+        padding: 0px 26px;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .esthetics_img {
+        margin: 69px 0 0 196px;
+    }
+
+    .head_logo {
+        margin-right: 50px;
+    }
+}
+
+@media(max-width: 535px) {
+    .head_logo {
+        margin: 0;
+    }
+
+    .desc {
+        margin: 76px 0 0 0;
+    }
+
+    .esthetics_img {
+        width: 175px;
+        height: 229px;
+        margin: 52px 0 0 185px;
+    }
+
+    .esthetics_text_block_patent p {
+        font-size: 16px;
+    }
+
+    .esthetics_text_block_patent span {
+        font-size: 55px;
+        padding: 11px 17px 11px 0;
+    }
+
+    .esthetics_text_block p {
+        font-size: 8px;
+    }
+
+    .esthetics_text_block span {
+        font-size: 27px;
+        padding-right: 11px;
+    }
+
+    .esthetics_text_head p{
+        font-size: 10px;
+        line-height: 12px;
+        padding: 6px 9px 5px 9px;
+
+    }
+
+    .esthetics_text {
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 514px) {
+    .desc span {
+        font-size: 10px;
+    }
+
+    .desc p {
+        font-size: 34px;
+    }
+
+    .slide_photo img {
+        height: 208px;
+        width: 318px;
+    }
+
+    .categories button:nth-child(1) {
+        padding: 17px;
+    }
+
+    .categories button:nth-child(2) {
+        padding: 17px 49px;
+    }
+ 
+    .categories button:nth-child(3) {
+        padding: 17px 59px;
+    }
+
+    .news_block h1 {
+        font-size: 15px;
+    }
+
+    .offerts_background h1 {
+        font-size: 26px;
+    }
+
+    .footer_block_adress {
+        padding: 0 0 0 67px;
+        margin: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .basemant_text{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .basemant_text a {
+        padding: 15px 0;
+    }
+
+    .basemant {
+        margin: 60px 0 0 0;
+    }
+}
+
+@media(max-width: 466px) {
+    .main_menu {
+        flex-direction: column;
+    }
+
+    .main_menu button {
+        margin: 0;
+    }
+}
+
+@media(max-width: 400px) {
+    .slide_photo img {
+        height: 173px;
+        width: 265px;
+    }
+
+    .news_menu_text button {
+        font-size: 12px;
+    }
+
+    .esthetics {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .esthetics_img {
+        position: static;
+        background-repeat: no-repeat;
+        margin: 30px 0 0 0;
+    }
+
+    .esthetics_text {
+        margin-right: 0;
+    }
+
+    .innovations_block span {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 5px 9px;
+    }
+
+    .innovations_block {
+        padding: 25px 0 26px 23px;
+    }
+
+    .innovations_block p {
+        font-size: 17px;
+        padding: 22px 0 14px 0;
+    }
+
+    .innovations_block_slide p {
+        font-size: 9px;
+        padding: 0 0 0 11px;
+    }
+
+    .innovations_block_slide button {
+        width: 29px;
+        height: 22px;
+    }
+
+    .innovations img {
+        width: 301px;
+    }
+}

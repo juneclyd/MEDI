@@ -1,0 +1,156 @@
+#menu_toggle {
+    opacity: 0;
+}
+
+#menu_toggle:checked ~ .menu_btn > span {
+    transform: rotate(45deg);
+}
+
+#menu_toggle:checked ~ .menu_btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu_toggle:checked ~ .menu_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+} 
+
+#menu_toggle:checked ~ .menu_box {
+    visibility: visible;
+    right: 0;
+    margin-left: 500px;
+}
+
+#menu_toggle:checked ~ .header_buttons_burger {
+    visibility: visible;
+    right: 0;
+    display: flex;
+}
+
+.menu_btn {
+    position: absolute;
+    display: flex;
+    top: 32px;
+    padding-left: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu_btn > span ,
+.menu_btn > span::before,
+.menu_btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    border-radius: 3px;
+    background: rgb(0, 0, 0);
+    transition-duration: 0.25s;
+    width: 25px;
+}
+
+.menu_btn > span::before {
+    content: "";
+    top: -8px;
+    width: 25px;
+}
+.menu_btn > span::after {
+    content: "";
+    top: 8px;
+    width: 25px;
+}
+
+.menu_box {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: 800px;
+    width: 300px;
+    margin: 0;
+    padding: 60px 0 20px 0;
+    background: rgb(255, 255, 255);
+    transition-duration: .4s;
+}
+
+.info_burger {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media(max-width: 964px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .our_salons,
+    .head_button,
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our_salons span {
+        padding-left: 0;
+    }
+
+    .head_button button {
+        margin: 10px 0 20px 0 ;
+    }
+}
+
+@media(max-width: 625px) {
+
+    .icons {
+        padding: 10px;
+    }
+
+    .menu_box {
+        width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icons {
+        padding: 10px 0;
+    }
+
+    .menu_btn {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    .menu_box {
+        width: 260px;
+    }
+}
+
+@media (max-width: 380px) {
+    .menu_box {
+        width: 220px;
+    }
+}
+
+@media (max-width: 350px) {
+    .menu_box {
+        width: 200px;
+    }
+
+    .menu_btn {
+        padding-left: 10px;
+    }
+
+    .icons img:nth-child(1) {
+        padding-left: 10px;
+    }
+}
